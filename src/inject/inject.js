@@ -1,7 +1,7 @@
 function removeLineBreaks() {
 	var textArea = document.getElementById('source');
 
-	textArea.value = textArea.value.replace(/\n/g, "");
+	textArea.value = textArea.value.replace(/\n/g, " ");
 }
 
 var readyStateCheckInterval = setInterval(function() {
